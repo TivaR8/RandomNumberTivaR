@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\bin\Debug\RandomNumberTivaR.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\bin\Debug\RandomNumberTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\bin\Debug\RandomNumberTivaR.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.frmRandomNumber.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Rait, Tiva (s230816)\Unit 3 (Decisions)\RandomNumberTivaR\RandomNumberTivaR\obj\Debug\RandomNumberTivaR.pdb

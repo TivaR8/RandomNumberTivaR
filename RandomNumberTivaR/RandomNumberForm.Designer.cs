@@ -29,22 +29,65 @@
         private void InitializeComponent()
         {
             this.lblRandomNumberQuestion = new System.Windows.Forms.Label();
+            this.lblCorrectGuess = new System.Windows.Forms.Label();
+            this.lblWrongGuess = new System.Windows.Forms.Label();
+            this.btnCheck = new System.Windows.Forms.Button();
+            this.txtEnterNumber = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblRandomNumberQuestion
             // 
             this.lblRandomNumberQuestion.AutoSize = true;
-            this.lblRandomNumberQuestion.Location = new System.Drawing.Point(29, 23);
+            this.lblRandomNumberQuestion.Location = new System.Drawing.Point(12, 39);
             this.lblRandomNumberQuestion.Name = "lblRandomNumberQuestion";
-            this.lblRandomNumberQuestion.Size = new System.Drawing.Size(107, 13);
+            this.lblRandomNumberQuestion.Size = new System.Drawing.Size(215, 13);
             this.lblRandomNumberQuestion.TabIndex = 0;
-            this.lblRandomNumberQuestion.Text = "Press The button To ";
+            this.lblRandomNumberQuestion.Text = "Can you guess what number I\'m thinking of?";
+            // 
+            // lblCorrectGuess
+            // 
+            this.lblCorrectGuess.AutoSize = true;
+            this.lblCorrectGuess.Location = new System.Drawing.Point(227, 117);
+            this.lblCorrectGuess.Name = "lblCorrectGuess";
+            this.lblCorrectGuess.Size = new System.Drawing.Size(44, 13);
+            this.lblCorrectGuess.TabIndex = 2;
+            this.lblCorrectGuess.Text = "Correct!";
+            // 
+            // lblWrongGuess
+            // 
+            this.lblWrongGuess.AutoSize = true;
+            this.lblWrongGuess.Location = new System.Drawing.Point(227, 130);
+            this.lblWrongGuess.Name = "lblWrongGuess";
+            this.lblWrongGuess.Size = new System.Drawing.Size(122, 13);
+            this.lblWrongGuess.TabIndex = 3;
+            this.lblWrongGuess.Text = "Sorry, that is not correct.";
+            // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(249, 72);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 23);
+            this.btnCheck.TabIndex = 4;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
+            // txtEnterNumber
+            // 
+            this.txtEnterNumber.Location = new System.Drawing.Point(249, 36);
+            this.txtEnterNumber.Name = "txtEnterNumber";
+            this.txtEnterNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtEnterNumber.TabIndex = 5;
             // 
             // frmRandomNumber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(380, 179);
+            this.Controls.Add(this.txtEnterNumber);
+            this.Controls.Add(this.btnCheck);
+            this.Controls.Add(this.lblWrongGuess);
+            this.Controls.Add(this.lblCorrectGuess);
             this.Controls.Add(this.lblRandomNumberQuestion);
             this.Name = "frmRandomNumber";
             this.Text = "Random Number By Tiva Rait";
@@ -56,6 +99,10 @@
         #endregion
 
         private System.Windows.Forms.Label lblRandomNumberQuestion;
+        private System.Windows.Forms.Label lblCorrectGuess;
+        private System.Windows.Forms.Label lblWrongGuess;
+        private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.TextBox txtEnterNumber;
     }
 }
 
