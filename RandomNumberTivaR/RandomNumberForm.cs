@@ -33,27 +33,51 @@ namespace RandomNumberTivaR
             // Hides the meassages
             lblWrongGuess.Hide();
             lblCorrectGuess.Hide();
-            //Random number generate
+            // Random number generate
             Random randomNumberGenerator = new Random();
+
+            // To disable everything until the play button is clicked
+            txtEnterNumber.Enabled = false;
+            btnCheck.Enabled = false;
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
             int usersGuess;
 
-            correctNumber = randomNumberGenerator.Next(MIN_NUM, MAX_NUM + 1);
-
             usersGuess = int.Parse(txtEnterNumber.Text);
 
-            //If then statenment to tell the users if they are correct.
+            // If then statenment to tell the users if they are correct.
             if (usersGuess == correctNumber)
             {
                 lblCorrectGuess.Show();
+                lblWrongGuess.Hide();
+                btnPlay.Enabled = true;
+                btnCheck.Enabled = false;
             }
             else
             {
                 lblWrongGuess.Show();
+                lblCorrectGuess.Hide();
+                btnPlay.Enabled = false;
+                btnCheck.Enabled = true;
             }
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            // To enable everything now that the play button has been clicked
+            txtEnterNumber.Enabled = true;
+            btnCheck.Enabled = true;
+
+            // To Disable the play button
+            btnPlay.Enabled = false;
+
+            // To clear the text Box 
+            txtEnterNumber.Text = (" ");
+
+            // Now to generate the new random number
+            correctNumber = randomNumberGenerator.Next(MIN_NUM, MAX_NUM + 1);
         }
     }
 }

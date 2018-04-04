@@ -33,6 +33,7 @@
             this.lblWrongGuess = new System.Windows.Forms.Label();
             this.btnCheck = new System.Windows.Forms.Button();
             this.txtEnterNumber = new System.Windows.Forms.TextBox();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblRandomNumberQuestion
@@ -79,11 +80,22 @@
             this.txtEnterNumber.Size = new System.Drawing.Size(100, 20);
             this.txtEnterNumber.TabIndex = 5;
             // 
+            // btnPlay
+            // 
+            this.btnPlay.Location = new System.Drawing.Point(29, 106);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 6;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
             // frmRandomNumber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 179);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.txtEnterNumber);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.lblWrongGuess);
@@ -103,6 +115,7 @@
         private System.Windows.Forms.Label lblWrongGuess;
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.TextBox txtEnterNumber;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
 
